@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <SearchView
+        android:id="@+id/searchView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/btnSearchSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Setting"
+        android:background="@color/colorHomeBackground"
+        android:layout_margin="7dp"
+        android:onClick="goToAnotherActivity"
+        android:layout_below="@+id/searchView25"
+        android:layout_alignLeft="@+id/searchView25"
+        android:layout_alignStart="@+id/searchView25"
+        android:layout_alignRight="@+id/fishPriceList"
+        android:layout_alignEnd="@+id/fishPriceList" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fishPriceList"
+        android:layout_below="@+id/btnSearchSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1" />
+
+</RelativeLayout>

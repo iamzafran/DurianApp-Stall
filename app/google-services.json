@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1050223902981",
+    "firebase_url": "https://durianapp-3602b.firebaseio.com",
+    "project_id": "durianapp-3602b",
+    "storage_bucket": "durianapp-3602b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050223902981:android:224ff0cb31a4263f",
+        "android_client_info": {
+          "package_name": "com.durianapp.durianapp_stall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050223902981-mrdga24p7nt70rdj3mvhqcbk1f8k2bdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDr8MT__8tO8amOWa-seii1I6EK6VHmZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

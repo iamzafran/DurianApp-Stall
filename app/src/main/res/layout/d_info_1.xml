@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Nama Variety: "
+                        android:id="@+id/txtName" />
+
+                    <TextView
+                        android:id="@+id/showDurianName"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Bentuk Buah: "
+                        android:id="@+id/textShape" />
+                    <TextView
+                        android:id="@+id/showDurianShape"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Bentuk Duri: "
+                        android:id="@+id/txtSpine" />
+                    <TextView
+                        android:id="@+id/showDurianSpine"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Warna Isi: "
+                        android:id="@+id/txtColor" />
+                    <TextView
+                        android:id="@+id/showDurianColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Rasa Kemanisan: "
+                        android:id="@+id/txtSweet" />
+                    <TextView
+                        android:id="@+id/showDurianSweetness"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Rasa Kepahitan: "
+                        android:id="@+id/txtBitterness" />
+                    <TextView
+                        android:id="@+id/showDurianBitterness"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

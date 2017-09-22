@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingRight="@dimen/padding_right"
+    android:paddingLeft="@dimen/padding_left"
+    android:gravity="center_vertical|center_horizontal">
+    <EditText
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_email_edit_text"/>
+    <EditText
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/register_password_edit_text"/>
+    <EditText
+        android:hint="@string/confirm_password"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/register_confirm_password_edit_text"/>
+    <Button
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_button"/>
+</LinearLayout>

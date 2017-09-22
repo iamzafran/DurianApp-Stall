@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp"
+              android:paddingLeft="24dp"
+              android:paddingRight="24dp"
+    >
+
+    <EditText
+        android:id="@+id/promotion_edit_text"
+        android:paddingTop="@dimen/label_padding_bottom"
+        android:paddingBottom="@dimen/label_padding_bottom"
+        android:hint="Teks promosi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/date"
+        android:text="Tarikh tamat promosi "
+        android:paddingBottom="@dimen/label_padding_bottom"
+        android:paddingTop="@dimen/label_padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/layout_padding_bottom"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/layout_padding_top">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/stall_image_view"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageButton
+                android:id="@+id/add_image_image_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_a_photo_black_24dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_gerai"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+            <EditText
+                android:id="@+id/stall_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_telefon"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+
+            <EditText
+                android:id="@+id/stall_phone_number_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+            <TextView
+                android:paddingTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="012-3456789"
+                />
+
+            <Button
+                android:id="@+id/stall_find_address_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/set_location"/>
+
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alamat"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+
+            <EditText
+                android:id="@+id/stall_address_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bandar"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+
+            <EditText
+                android:id="@+id/stall_city_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mukim"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+            <EditText
+                android:id="@+id/locality_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poskod"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+
+            <EditText
+                android:id="@+id/stall_postcode_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+
+
+
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negeri"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+
+            <EditText
+                android:id="@+id/stall_state_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_view_padding_bottom"
+                />
+
+
+
+
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/update_bm"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

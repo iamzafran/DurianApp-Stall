@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DurianApp</string>
+    <string name="set_location">Cari Kordinat</string>
+    <string name="nama_gerai">Nama Gerai</string>
+    <string name="no_telefon">No. Telefon</string>
+    <string name="alamat">Alamat</string>
+    <string name="mukim">Mukim</string>
+    <string name="terus">terus</string>
+    <string name="register">register</string>
+    <string name="log_in">Log In</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="choose_your_image_source">Choose your image source</string>
+    <string name="image_source">Image Source</string>
+    <string name="search">search</string>
+    <string name="clear_search">clear</string>
+    <string name="lokasi">lokasi</string>
+    <string name="poskod">Poskod</string>
+    <string name="title_home">Home</string>
+    <string name="title_info">Info</string>
+    <string name="title_search">Search</string>
+    <string name="title_stalls">Stalls</string>
+    <string name="title_news">News</string>
+    <string name="title_activity_test">testActivity</string>
+    <string name="title_activity_durian_info">DurianInfoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_activity_manage_stall">ManageStallActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="update">Update</string>
+    <string name="add_promotion">Tambah Promosi</string>
+    <string name="update_bm">kemaskini</string>
+    <string name="confirm">confirm</string>
+
+
+    <string-array name="dSweetness">
+        <item>Any</item>
+        <item>Kuat</item>
+        <item>Sederhana</item>
+        <item>Sedikit</item>
+    </string-array>
+    <string-array name="dBitterness">
+        <item>Any</item>
+        <item>Kuat</item>
+        <item>Sederhana</item>
+        <item>Sedikit</item>
+    </string-array>
+</resources>

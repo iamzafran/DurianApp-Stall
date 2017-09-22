@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingRight="@dimen/padding_right"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingTop="@dimen/layout_padding_top"
+    android:paddingBottom="@dimen/layout_padding_bottom">
+    <LinearLayout
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/stall_image_view"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:paddingTop="@dimen/label_padding_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama_gerai"
+                    android:paddingBottom="@dimen/label_padding_bottom"/>
+                <TextView
+                    android:textSize="17sp"
+                    android:id="@+id/stall_name_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Gerai Durian Ikhwan"
+                    android:textColor="#000000"
+                    android:paddingBottom="@dimen/text_view_padding_bottom"
+                    />
+
+
+                <TextView
+                    android:paddingTop="@dimen/label_padding_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat"
+                    android:paddingBottom="@dimen/label_padding_bottom"/>
+                <TextView
+                    android:textSize="17sp"
+                    android:id="@+id/stall_address_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="No.2 JLN PI 15/6 TAMAN PULAI INDAH 81300 JOHOR BAHRU, JOHOR"
+                    android:textColor="#000000"
+                    android:paddingBottom="@dimen/text_view_padding_bottom"
+                    />
+
+
+                <TextView
+                    android:paddingTop="@dimen/label_padding_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mukim"
+                    android:paddingBottom="@dimen/label_padding_bottom"/>
+                <TextView
+                    android:textSize="17sp"
+                    android:id="@+id/stall_locality_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Kangkar Pulai"
+                    android:textColor="#000000"
+                    android:paddingBottom="@dimen/text_view_padding_bottom"
+                    />
+
+
+                <TextView
+                    android:paddingTop="@dimen/label_padding_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_telefon"
+                    android:paddingBottom="@dimen/label_padding_bottom"/>
+                <TextView
+                    android:textSize="17sp"
+                    android:id="@+id/stall_phone_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="013-7446251"
+                    android:textColor="#000000"
+                    android:paddingBottom="@dimen/text_view_padding_bottom"
+                    />
+
+                <TextView
+                    android:paddingTop="@dimen/label_padding_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lokasi"
+                    android:paddingBottom="@dimen/label_padding_bottom"/>
+
+                <FrameLayout
+                    android:id="@+id/stall_map_fragment_container"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"></FrameLayout>
+                <Button
+                    android:id="@+id/navigation_button"
+                    android:text="Navigasi ke Gerai"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            <TextView
+                android:paddingTop="@dimen/label_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senarai Durian"
+                android:paddingBottom="@dimen/label_padding_bottom"/>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/durian_list_recycler_view"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:paddingTop="@dimen/label_padding_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promosi"
+            android:paddingBottom="@dimen/label_padding_bottom"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/promotion_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</ScrollView>
